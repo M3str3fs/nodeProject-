@@ -1,0 +1,163 @@
+<div class="form-repurchase">
+  <div class="container" [formGroup]="repurchase" (ngSubmit)="onSubmit()">
+
+    <!-- ==== LINHA 1 INICIO ==== -->
+    <div class="col-3-custom">
+      <mat-form-field class="field">
+        <input matInput placeholder="Solicitante" autocomplete="off" formControlName="solicitante" >
+      </mat-form-field>
+    </div>
+
+    <div class="col-2-custom">
+      <mat-form-field class="field">
+        <input matInput placeholder="Filial" autocomplete="off" formControlName="filial" >
+      </mat-form-field>
+    </div>
+
+    <div class="col-1-custom">
+      <mat-form-field class="field">
+        <input matInput placeholder="Data" [matDatepicker]="picker" formControlName="data">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+    </div>
+
+
+
+    <!-- ==== LINHA 1 FIM ==== -->
+ 
+    <div class="col-2-custom mt-40">
+         <div class=" pr-1 col-0-custom">
+            <input matInput placeholder="Rastreado">
+          </div>
+      <mat-radio-group name="Rastreado">
+        <mat-radio-button value="true" class="pr-1">SIM</mat-radio-button>
+        <mat-radio-button value="false" class="pr-1">NÃO</mat-radio-button>
+      </mat-radio-group>
+    </div>
+
+    <div class="col-3-custom mt-40">
+
+      <mat-radio-group name="Gerenciadora">
+          <div class=" pr-1 col-0-custom">
+              <input matInput placeholder="Gerenciadora">
+            </div>
+        <mat-radio-button value="1" class="pr-1">BR</mat-radio-button>
+
+        <mat-radio-button value="2" class="pr-1">GOLDEN</mat-radio-button>
+
+        <mat-radio-button value="3" class="pr-1">OUTRAS</mat-radio-button>
+      </mat-radio-group>
+    </div>
+
+       <!-- ==== LINHA 3 INICIO ==== -->
+    
+        <mat-card class="col-6-custom mt-40">
+               <div class="col-2-custom">
+                    <mat-form-field class="field">
+                      <input matInput placeholder="Origem" autocomplete="off" formControlName="er" >
+                    </mat-form-field>
+                  </div>
+              
+                  <div class="col-3-custom">
+                    <mat-form-field class="field">
+                      <input matInput placeholder="Cidade" autocomplete="off" formControlName="re" >
+                    </mat-form-field>
+                  </div>
+
+                  <div class="col-1-custom">
+                      <mat-form-field class="field">
+                        <input matInput placeholder="UF" autocomplete="off" formControlName="UF" >
+                      </mat-form-field>
+                  </div>
+        </mat-card>
+
+        <mat-card class="col-6-custom mt-40">
+            <div class="col-2-custom">
+                 <mat-form-field class="field">
+                   <input matInput placeholder="Origem" autocomplete="off" formControlName="er" >
+                 </mat-form-field>
+               </div>
+           
+               <div class="col-3-custom">
+                 <mat-form-field class="field">
+                   <input matInput placeholder="Cidade" autocomplete="off" formControlName="re" >
+                 </mat-form-field>
+               </div>
+
+               <div class="col-1-custom">
+                   <mat-form-field class="field">
+                     <input matInput placeholder="UF" autocomplete="off" formControlName="uF" >
+                   </mat-form-field>
+               </div>
+        </mat-card>
+
+        <div class="col-3-custom mt-40">
+          <mat-form-field class="field">
+            <input matInput placeholder="Motorista" autocomplete="off" formControlName="motorista" >
+          </mat-form-field>
+        </div>
+    
+        <div class="col-2-custom mt-40">
+          <mat-form-field class="field">
+            <input matInput placeholder="Placa CT" autocomplete="off" formControlName="placaCT" >
+          </mat-form-field>
+        </div>
+    
+        <div class="col-1-custom mt-40">
+          <mat-form-field class="field">
+            <input matInput placeholder="Placa CV" autocomplete="off" formControlName="placaCV" >
+          </mat-form-field>
+        </div>
+
+
+        <div class="col-1-custom">
+          <mat-form-field class="field">
+            <input matInput placeholder="Data Inicio" [matDatepicker]="picker" formControlName="data" >
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+        </div>
+
+
+        <div class="col-1-custom">
+          <mat-form-field class="field">
+            <input matInput placeholder="Data Reinicio" [matDatepicker]="picker" formControlName="data" >
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+        </div>
+
+
+        <div class="col-1-custom">
+          <mat-form-field class="field">
+            <input matInput placeholder="Data Final" [matDatepicker]="picker" formControlName="data" >
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+        </div>
+
+        <div class="col-2-custom mt-40">
+          <mat-form-field class="field">
+            <input matInput placeholder="Telefone" autocomplete="off" formControlName="phoneNumber" >
+          </mat-form-field>
+        </div>
+
+
+        <div class="col-2-custom mt-40">
+          <mat-form-field class="field">
+            <input matInput placeholder="Equipamento" autocomplete="off" formControlName="source" >
+          </mat-form-field>
+        </div>
+
+        <div class="col-6-custom mt-40">
+          <mat-form-field class="field">
+            <input matInput placeholder="Observações" autocomplete="off" formControlName="obs" >
+          </mat-form-field>
+        </div>
+
+
+    
+
+  </div>
+</div>

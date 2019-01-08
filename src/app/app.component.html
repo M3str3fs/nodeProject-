@@ -1,0 +1,20 @@
+ <form>
+<div class="form-group">
+  <router-outlet></router-outlet>
+</div>
+<!-- </div> -->
+<h3 class="container">
+  <img src="/assets/pnb.png">
+  <mat-icon>menu</mat-icon>
+</h3>
+<mat-tab-group >
+    <mat-tab label="CONSULTA"> 
+      <app-post-list> </app-post-list>
+    </mat-tab>
+    <mat-tab label="CADASTRO"> 
+      <app-post-create> </app-post-create>
+    </mat-tab>
+    
+</mat-tab-group>
+
+</form>

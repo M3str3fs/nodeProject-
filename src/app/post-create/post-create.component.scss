@@ -1,0 +1,163 @@
+
+.tab {
+    padding: 40px 20px 0 20px;
+  }
+.mat-card{
+    width: 10%;
+}
+
+.col-0-custom{
+    width: 1%;
+}
+
+.col-1-custom{
+    width: 20%;
+}
+
+.col-2-custom{
+    width: 30%;
+    
+}
+
+.col-3-custom{
+    width: 50%;
+}
+
+.col-4-custom{
+    width: 100px;
+}
+
+.pr-1{
+    padding-right: 2%;
+    margin-right: 3%
+}
+
+.mt-40{
+    margin-top: 40px;
+}
+.form-repurchase{
+  width: 100%;
+  float: left;
+  margin-bottom: 50%;
+  z-index: 1000;
+  padding-top: 20px;
+  padding-left: 20px;
+  background: #FFF;
+
+  .field{
+      width:80%;
+  }
+
+  .field-liq{
+      width: 92%;
+  }
+  .field-indexer {
+      width: 50%;
+  }
+  .account{
+      font-size: 16px;
+      font-weight: 700;
+  }
+  .balance{
+      font-size: 12px;
+      padding-left: 20px;
+      padding-right: 10px;
+  }
+  .value-balance{
+      font-size: 14px;
+      color:#FFF;
+      background: #636363;
+      padding: 2px 10px 2px 10px;
+      border-radius: 20px;
+  }
+  .label-value{
+      font-size: 12px;
+      color:#636363;
+  }
+  .span-value{
+      border-bottom: 1px dashed rgba(0, 0, 0, 0.12);
+      height: 26px;
+      width: 75%;
+  }
+
+  .btn-cancel{
+      width: 170px;
+      height: 45px;
+      border-radius: 3px;
+      font-size: 16px;
+      color: #d32f2f;
+  }
+  .btn-next{
+      width: 170px;
+      height: 45px;
+      border-radius: 3px;
+      font-size: 16px;
+      color:#FFF;
+      box-shadow: 0 1px 4px 0 #888888;
+  }
+  .data-input-message{
+      margin-top: -10px;
+  }
+  .row:before,
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  [class*='col-'] {
+      float: left;
+      min-height: 1px;
+  }
+
+  [class*='col-'] {
+      float: left;
+      min-height: 1px;
+      width: 16.66%;
+  }
+  .col-1-custom{
+      width: 13%;
+  }
+  .col-1-value{
+      width: 29%;
+      padding-left: 15px;
+  }
+
+  .col-2-custom{
+      width: 36%;
+  }
+  .col-3-custom{
+      width: 50%;
+  }
+  .col-4-custom{
+      width: 60%;
+  }
+  .col-6-custom{
+      width: 100%;
+  }
+  .mt-20{
+      margin-top: 20px;
+  }
+  .mt-40{
+      margin-top: 40px;
+  }
+  .mt-200{
+      margin-top: 200px;
+  }
+  .ml-20{
+      margin-left: 20px;
+  }
+  .mr-60{
+      margin-right: 60px;
+  }
+  .right{
+      float: right;
+  }
+  .center{
+      text-align: center;
+  }
+  .mat-option{
+      border-bottom: 1px solid #BBB;
+  }
+  
+}

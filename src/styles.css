@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~ag-grid/dist/styles/ag-grid.css";
+@import "~ag-grid/dist/styles/ag-theme-balham.css";
+
+html, body, div, span,
+h1, p, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+  background: #f1f1f1;
+  font-size: 16px;
+  line-height: 22px;
+  color: #404040;
+  font-family: 'Lucida Grande', Verdana, sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.btn {
+  background: lightseagreen;
+  color: #fff;
+  padding: 3px 10px;
+  margin: 0 0 0 3px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 24px;
+  cursor: pointer;
+  vertical-align: bottom;
+}
+
+.btn:hover {
+  background: lightslategrey;
+} */
+
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";

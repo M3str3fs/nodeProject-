@@ -1,0 +1,1 @@
+//registry=http://nexus.produbanbr.corp/repository/npm-all/
